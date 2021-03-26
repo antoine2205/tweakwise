@@ -1,1 +1,58 @@
-<category>hello world</category>
+<?xml version="1.0" encoding="utf-8"?>
+<tweakwise xmlns:xi="http:http://www.w3.org/2001/XMLSchema-
+instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" shop="Demo Store">
+    <items>
+        <item>
+            <id>1000</id>
+            <price>599</price>
+            <stock>10</stock>
+            <name>iPhone 5 16GB</name>
+            <brand>Apple</brand>
+            <image>http://www.shop.nl/images/iphone-5-silver.jpg</image>
+            <attributes>
+                <attribute>
+                    <name>Color</name>
+                    <value><![CDATA[Black]]>]></value>
+                </attribute>
+                <attribute>
+                    <name>Color</name>
+                    <value><![CDATA[White]]>]></value>
+                </attribute>
+                <attribute>
+                    <name>Camera Megapixels</name>
+                    <value><![CDATA[8]]>]></value>
+                </attribute>
+                <attribute>
+                    <name>Video resolution</name>
+                    <value><![CDATA[1080p]]>]></value>
+                </attribute>
+            </attributes>
+            <categories>
+                <categoryid>10</categoryid>
+            </categories>
+        </item>
+    </items>
+    <categories>
+        <category>
+            <categoryid>1</categoryid>
+            <name>Demo Store</name>
+            <rank>0</rank>
+        </category>
+        <category>
+            <categoryid>10</categoryid>
+            <name>Smartphones</name>
+            <rank>1</rank>
+            <parents>
+                <categoryid>1</categoryid>
+            </parents>
+        </category>
+        <category>
+            <categoryid>20</categoryid>
+            <name>Tablets</name>
+            <rank>2</rank>
+            <parents>
+                <categoryid>1</categoryid>
+            </parents>
+        </category>
+    </categories>
+</tweakwise>
